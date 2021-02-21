@@ -2,17 +2,14 @@
 
 ## About
 
-The goal of this repository is providing COVID-19 statistics by using [Dash](https://github.com/plotly/dash) and [Python](https://github.com/python).
+This repository aims to create a dashboard visualizing COVID-19 statistics using [Plotly Dash](https://github.com/plotly/dash) and [Python](https://github.com/python).
 
 The COVID-19 Data Portal live dashboard can be accessed [here](https://covid-data-portal.herokuapp.com).
 
 ## Description
 
-The COVID-19 Data Portal aims to provide the user with an interactive interface to check their number of cases in the world in a straightforward way. When opening the app, the total confirmed cases by region are shown in the center of the app in the form of a map. The user can choose to zoom in the map and check the detailed case information for a specific region. Furthermore, the trends for the number of daily confirmed cases are shown in the center of the app as well.
+The COVID-19 Data Portal automatically retrieves the latest data from [Johns Hopkins University CSSE COVID-19 Data Repository](https://github.com/CSSEGISandData/COVID-19) and provides the user with an interactive interface to check the number of cases in the world in a straightforward way. The global impact is visualized using a world map highlighting country and regions affected the most by this pandemic. The user can select a time frame to see the trends of new cases and deaths, the default setting is to show the recent 6-month period. Statistics of a country of interest is also displayed with overal numbers as well as recent trends.
 
-On the left side of the dashboard, the user can view the world cases trend for recovered cases, death cases, and confirmed cases. There's also an ordered ranking on the left side which shows how many cases up till now for each countries in different categories. The user can select the categories such as confirmed cases, death cases, recovered cases from the drop-down menu.
-
-On the right side of the dashboard, the country level statistics can be seen in both number format and trend-line format. By default, the user will see Canada's statistics when opening the dashboard. Users can also opt for other region's statistics by selecting from the drop-down menu to view both the case summary and the trend line.
 
 ## Dashboard
 
